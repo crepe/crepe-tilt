@@ -49,7 +49,7 @@ module Crepe
 
         template = find_template template_name, path_options
         locals = {
-          template_name => resource, resource: resource, links: links.to_h
+          template_name => resource, resource: resource
         }
         if layout_name = options[:layout]
           layout = find_template layout_name, path_options.merge(layout: true)
