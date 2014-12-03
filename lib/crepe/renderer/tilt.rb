@@ -79,7 +79,7 @@ module Crepe
 
         template_path = Dir[query].reject { |path|
           ext = File.basename(path).split('.').last
-          File.directory?(path) || ::Tilt.mappings[ext].nil?
+          File.directory?(path) || !::Tilt.registered?(ext)
         }.first
 
         unless template_path
