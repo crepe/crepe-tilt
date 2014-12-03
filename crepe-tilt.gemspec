@@ -2,7 +2,7 @@ $LOAD_PATH.unshift File.expand_path 'lib', __dir__
 require 'crepe-tilt/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'crepe'
+  s.name        = 'crepe-tilt'
   s.version     = Crepe::Renderer::Tilt::VERSION
   s.summary     = 'A Tilt renderer for Crepe'
   s.description = 'A Tilt renderer for Crepe'
