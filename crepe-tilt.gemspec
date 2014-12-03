@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 2.0.0'
 
-  s.add_dependency 'crepe', '~> 0.9'
+  s.add_dependency 'crepe'
   s.add_dependency 'tilt',  '~> 2.0'
 
   s.add_development_dependency 'cane',      '~> 2.6.x'
